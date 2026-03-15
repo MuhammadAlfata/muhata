@@ -18,8 +18,12 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
           <div className="flex flex-col items-center md:items-start">
-            <Link href="/" className="text-xl font-bold tracking-tighter mb-4 text-foreground">
-              M<span className="text-blue-500">.</span>Alfata
+            <Link href="/" className="mb-4 inline-flex items-center transition-transform duration-300 hover:scale-[1.02]">
+              <div className="flex h-10 w-12 items-center justify-center rounded-md bg-[#05112b] shadow-[0_10px_30px_rgba(6,17,43,0.35)] ring-1 ring-white/5">
+                <span className="text-xl font-black tracking-[-0.18em] text-white">
+                  M<span className="text-[#16b8ff]">A</span>
+                </span>
+              </div>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs text-center md:text-left">
               Educational Technology Researcher & AI Learning Designer focusing on autonomous language learning.

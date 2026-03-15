@@ -1,8 +1,8 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
-import { Research } from "@/components/research";
 import { Projects } from "@/components/projects";
+import { Research } from "@/components/research";
 import { Services } from "@/components/services";
 import { TechStack } from "@/components/tech-stack";
 import { Contact } from "@/components/contact";
@@ -15,12 +15,12 @@ export default function Home() {
       <ScrollProgress />
       <Navbar />
       <Hero />
-      <About />
-      <Research />
       <Projects />
+      <Research />
       <Services />
       <TechStack />
       <Contact />
+      <About />
       <Footer />
     </main>
   );

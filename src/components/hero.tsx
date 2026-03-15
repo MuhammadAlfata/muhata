@@ -47,7 +47,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            I specialize in developing <strong className="text-foreground font-medium">AI-powered language learning systems</strong>, digital learning environments, and research-driven educational experiences.
+            Building <strong className="text-foreground font-medium">AI-powered learning experiences</strong> for language education, digital platforms, and research-driven innovation.
           </motion.p>
 
           <motion.div
@@ -84,13 +84,6 @@ export function Hero() {
                   className="h-auto w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/35 to-transparent" />
-              </div>
-
-              <div className="absolute left-6 right-6 bottom-6 rounded-[1.5rem] border border-white/10 bg-slate-950/70 p-5 backdrop-blur-md">
-                <p className="text-xs uppercase tracking-[0.35em] text-cyan-300">About Me</p>
-                <p className="mt-3 text-sm leading-6 text-white/80">
-                  Educational technology researcher focused on AI, language learning, and digital learning design.
-                </p>
               </div>
             </div>
           </motion.div>
