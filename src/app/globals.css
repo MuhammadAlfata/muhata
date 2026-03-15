@@ -1,5 +1,4 @@
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -86,8 +85,18 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at top, rgba(37, 99, 235, 0.12), transparent 30%),
+      radial-gradient(circle at 85% 20%, rgba(34, 211, 238, 0.1), transparent 20%);
+    background-attachment: fixed;
   }
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
+  }
+  ::selection {
+    background: rgba(22, 184, 255, 0.25);
+  }
+  section {
+    scroll-margin-top: 96px;
   }
 }
